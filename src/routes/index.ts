@@ -1,7 +1,7 @@
 import express from "express";
-import v1_routes from "./v1";
+import v1 from "./v1";
 const router = express.Router();
 
-router.use("/v1", v1_routes);
+router.use("/v1", v1);
 
 export default router;
